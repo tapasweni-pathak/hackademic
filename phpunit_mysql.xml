@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit>
+    <php>
+        <var name="db_dsn" value="mysql:dbname=hackademic;host=localhost"/>
+        <var name="db_username" value="username"/>
+        <var name="db_password" value="password"/>
+    </php>
+
+    <testsuites>
+        <testsuite name="Hackademic Devtests">
+            <directory>./hackademic_devtests/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
