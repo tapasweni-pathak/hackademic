@@ -9,7 +9,7 @@
 
     <testsuites>
         <testsuite name="Hackademic Devtests">
-            <directory>./hackademic_devtests/</directory>
+            <directory>./hackademic_devtests/successTest.php</directory>
         </testsuite>
     </testsuites>
 </phpunit>
