@@ -20,13 +20,14 @@ env:
 
 before_script:
   - curl -sS https://getcomposer.org/installer | php; sudo mv composer.phar /usr/local/bin/composer
+  - php composer.phar install
   - if [[ "$DB" == "mysql" ]]; then mysql -e "create database IF NOT EXISTS hackademic;" -uroot; fi
 
 script:
   - phpunit --configuration phpunit_mysql.xml --coverage-text
 
-install:
-  - php composer.phar install
+#install:
+# - php composer.phar install
 
 notifications:
   irc:
