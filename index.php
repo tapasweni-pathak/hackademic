@@ -6,7 +6,6 @@
  * Copyright (c) 2012 OWASP
  *
  * LICENSE:
- *
  * This file is part of Hackademic CMS
  * (https://www.owasp.org/index.php/OWASP_Hackademic_Challenges_Project).
  *
