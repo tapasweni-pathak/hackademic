@@ -3,7 +3,6 @@
  * Hackademic-CMS/index.php
  * This file is the entry point for the application
  *
- *
  * Copyright (c) 2012 OWASP
  *
  * LICENSE:
