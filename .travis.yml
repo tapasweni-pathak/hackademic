@@ -20,7 +20,7 @@ before_script:
 
 script:
     #  - phpunit --configuration phpunit_mysql.xml --coverage-text
-  - vendor/bin/phpunit --configuration phpunit_mysql.xml --coverage-html ./report hackademic_devtests/successTest.php
+  - vendor/bin/phpunit --configuration phpunit_mysql.xml --coverage-html ./report hackademic_devtests/model/common/class.PageTest.php
 
 install:
  - composer install
